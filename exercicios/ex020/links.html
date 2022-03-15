@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        a {
+            text-decoration: none;
+            color: red;
+        }
+        a:visited {
+            
+            color: blue;
+            
+        }a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        .especial:active {
+            color: yellow;
+
+        }
+        .especial::before {
+            content: '→';
+        }
+        .especial::after {
+            content: '←';
+            font-weight: normal;
+            text-decoration: none;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>pesonalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Ricardo686" rel="external" target="_blank">repositoria GitHub</a></li>
+        <li><a href="https://www.youtube.com" rel="external" target="_blank" class="especial">canal do you tube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">site do curso em video</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@500&family=Pacifico&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color: #6DDF8F;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif , Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #1a4426, #46e771);
+    color: white;
+    
+    
+}
+header > h1 {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+header > p {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+nav {
+    background-color: #115927;
+    padding: 10px;
+   
+}
+nav > a {
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    box-align: justify;
+    
+}
+main {
+    background-color: white;
+    
+    width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+main > h1 {
+    font-family: 'droid';
+    color:#115927;
+    padding: 15px;
+}
+main > h2 {
+    background-color:#6ddf8fa4;
+    font-family: 'droid';
+    color:#115927;
+    margin: 15px;
+}
+main > p {
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+a {
+    color: #115927;
+    text-decoration: none;
+}
+.irina {
+    margin: 15px;
+}
+.bug {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+article {
+    background-color: #115927;
+    width: 670px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+    margin-right: 0px;
+}
+iframe {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.final {
+    background-color: white;
+    margin-top: 15px;
+    
+}
+.final > h3 {
+    background-color: #58bd76;
+    color: white;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container-div {
+    background-color: #6ddf8f9f;
+    width: 645px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-left: 15px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+}
+.container-b {
+    display: flex;
+}
+.ult {
+    margin: 20px;
+    
+}
+footer {
+    text-align: center;
+    background-color: #115927;
+    color: white;
+    padding: 10px;
+    
+}

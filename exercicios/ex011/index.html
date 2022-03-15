@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir essa imagem em varios dispositivos diferentes. <br>
+        ou simplesmente aumente e diminua a tela do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos reproduzir audio em HTML5</p>
+    <audio src="midia/Frequency - Silent Partner.mp3" autoplay controls loop></audio>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Frequency - Silent Partner.mp3" type="/audio.mpeg">
+        <source src="midia/Frequency - Silent Partner.mp3" type="/audio.ogg">
+        <source src="midia/Frequency - Silent Partner.mp3" type="/audio.wav">
+        <p>infelizmente seu navegador não consegue reproduzir audio. <a href="midia/Frequency - Silent Partner.mp3">clique aqui para baixar</a></p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imagem completa? experimente ampliar a tela ou diminuir</p>
+    <picture>
+        <source media="(max-width:650px )" srcset="paisagem300.jpg" type="image/jpg">
+        <source media="(max-width:1150px )" srcset="paisagem600.jpg" type="image/jpg">
+        <img src="paisagem.png.jpg" alt="cidade">
+    </picture>
+</html>
